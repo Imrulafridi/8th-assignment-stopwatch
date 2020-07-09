@@ -4,6 +4,50 @@
   box-sizing: border-box;
 }
 
+
+@media screen and (max-width: 480px){
+  .wrapper .btn button{
+    padding: .5rem;
+    margin: 1rem .2rem !important;
+    font-size: 1.5rem; 
+  }
+
+  .wrapper .screen h1{
+    margin: auto 5px;
+    padding: 1.5rem;
+  }
+
+}
+
+
+@media screen and (max-width: 345px){
+  .wrapper .stopw{
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  
+  .wrapper .screen h1{
+    padding: 2rem !important; 
+    width: 2rem !important;
+    font-size: 2rem !important;
+  }
+  
+  .wrapper .btn {
+    display: block;
+    margin-top: 10px;
+    
+  }
+
+  .screen{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+
 .backg{
   background: url(bg.png) no-repeat center center/cover;
   width: 100%;
@@ -41,8 +85,8 @@
 }
 
 .wrapper .screen h1{
-  padding: 5rem;
-  width: 3rem;
+  padding: 3rem;
+  width: 2rem;
   font-size: 3rem;
 }
 
@@ -54,26 +98,4 @@
   border: none;
   font-size: 2rem;
   border-radius: 1rem;
-}
-
-@media screen and (max-width: 480px){
-  .wrapper .btn button{
-    padding: .5rem;
-    margin: 0 .2rem;
-    font-size: 1.5rem;
-    
-  }
-}
-
-
-@media screen and (max-width: 345px){
-  .wrapper .btn {
-    display: block;
-    
-  }
-  .wrapper .screen h1{
-    margin: auto 10px;
-    padding: 1.5rem;
-  }
-
 }
